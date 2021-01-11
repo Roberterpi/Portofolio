@@ -1,3 +1,12 @@
-h1 {
-  font-family: 'Roboto Slab', serif;
+header {
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
 }

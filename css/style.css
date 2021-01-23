@@ -16,10 +16,13 @@ header {
   justify-content: center;
   color: white;
   font-size: x-large;
+  background-image: url("../img/poze.jpg");
 }
 
 nav {
   border-bottom: 3.5px solid mediumturquoise;
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
@@ -51,36 +54,30 @@ blockquote {
   padding: 1rem;
 }
 
-.page1 {
-  display: flex;
+section {
   height: 100vh;
+}
+
+#about {
   background-color: teal;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: white;
 }
 
-.page2 {
+.section-content {
   display: flex;
-  height: 100vh;
-  background-color: teal;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  color: black;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
 }
 
-.page3 {
-  display: flex;
-  height: 100vh;
-  background-color: teal;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: black;
+.profile-image {
+  border-radius: 50%;
+  border: 3px solid mediumturquoise;
+  width: 15%;
+  margin: 10%;
 }
-
 .page3 ul {
   list-style-type: none;
   margin: 0;

@@ -78,28 +78,42 @@ section {
   border-radius: 50%;
   border: 2px solid mediumturquoise;
   width: 25%;
-  margin: 4%;
+  margin: 7%;
 }
 
+#projects {
+  background-color: teal;
+}
 
-.page3 ul {
+.projects-p, .contact-p {
+  font-size: 50px; 
+  font-weight: bold; 
+  margin: 0;
+  color: black;
+}
+
+#contact {
+  background-color: teal;
+}
+
+.contact-list ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.page3 li {
+.contact-list li {
   display: inline-block;
 }
 
-.page3 li a {
+.contact-list li a {
   text-decoration: none;
   color: white;
   display: block;
   padding: 0.8rem 0.8rem;
 }
 
-.page3 li a:hover {
+.contact-list li a:hover {
   color: darkgrey;
   text-decoration: none;
 }

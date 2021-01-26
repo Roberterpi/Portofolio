@@ -6,6 +6,7 @@ html, body {
   height: 100%;
   min-width: 100%;
 }
+
 header {
   display: flex;
   height: 100vh;
@@ -17,15 +18,24 @@ header {
   font-size: x-large;
 }
 
+
+blockquote {
+  font-size: large;
+  border: 3.5px solid whitesmoke;
+  padding: 1rem;
+}
+
 nav {
   border-bottom: 3.5px solid mediumturquoise;
+  position: sticky;
+  top: 0;
+  background-color: grey;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: grey;
   text-align: right;
 }
 
@@ -41,45 +51,36 @@ nav a {
 }
 
 nav a:hover {
-  color: teal;
+  color: mediumturquoise;
   text-decoration: none;
 }
 
-blockquote {
-  font-size: large;
-  border: 3.5px solid whitesmoke;
-  padding: 1rem;
+section {
+  height: 100hv;
 }
 
-.page1 {
-  display: flex;
-  height: 100vh;
+#about {
   background-color: teal;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   color: white;
 }
-
-.page2 {
+.section-content {
   display: flex;
-  height: 100vh;
-  background-color: teal;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: black;
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 3rem;
 }
 
-.page3 {
-  display: flex;
-  height: 100vh;
-  background-color: teal;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: black;
+.profile-image {
+  border-radius: 50%;
+  border: 2px solid mediumturquoise;
+  width: 25%;
+  margin: 4%;
 }
+
 
 .page3 ul {
   list-style-type: none;
@@ -103,13 +104,14 @@ blockquote {
   text-decoration: none;
 }
 
-.footer {
-  color: white;
+footer {
   background-color: grey;
   text-align: center;
   overflow: hidden;
 }
 
 .footer-text {
+  color: white;
   padding: 1rem;
+  font-size: small;
 }

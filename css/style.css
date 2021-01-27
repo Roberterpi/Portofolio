@@ -18,11 +18,15 @@ header {
   font-size: x-large;
 }
 
-
 blockquote {
   font-size: large;
   border: 2.5px solid whitesmoke;
   padding: 1rem;
+}
+
+blockquote a {
+  text-decoration: none;
+  color: white;
 }
 
 nav {
@@ -30,6 +34,7 @@ nav {
   position: sticky;
   top: 0;
   background-color: grey;
+  overflow: hidden;
 }
 
 nav ul {
@@ -55,10 +60,6 @@ nav a:hover {
   text-decoration: none;
 }
 
-section {
-  height: 100hv;
-}
-
 #about {
   background-color: yellow;
   color: white;
@@ -68,7 +69,6 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100hv;
   width: 60%;
   margin: 0 auto;
   padding-bottom: 3rem;
@@ -77,9 +77,8 @@ section {
 
 .profile-image {
   border-radius: 50%;
-  border: 2px solid mediumturquoise;
   width: 25%;
-  margin: 7%;
+  margin: 10%;
 }
 
 #projects {
@@ -90,12 +89,11 @@ section {
   font-size: 50px; 
   font-weight: bold;
   color: black;
-  margin: 7%;
+  margin: 10%;
 }
 
 #contact {
   background-color:red;
-  justify-content: ;
 }
 
 .contact-list ul {

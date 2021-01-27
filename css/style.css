@@ -61,6 +61,10 @@ nav a:hover {
   text-decoration: none;
 }
 
+section {
+  min-height: 100vh;
+}
+
 #about {
   background-color: yellow;
   color: white;

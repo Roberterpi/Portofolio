@@ -107,7 +107,12 @@ section {
 }
 
 #contact {
+  display: flex;
   background-color:red;
+}
+
+.contact-list {
+  padding: 0;
 }
 
 .contact-list ul {

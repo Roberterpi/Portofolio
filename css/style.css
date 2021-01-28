@@ -11,7 +11,7 @@ html, body {
 header {
   display: flex;
   height: 100vh;
-  background-color: teal;
+  background-color: goldenrod;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -30,10 +30,10 @@ blockquote a {
   color: white;
 }
 
-blockquote:hover {
+blockquote a:hover {
   font-size: large;
-  border: 2.5px solid whitesmoke;
-  padding: 1rem;
+  background-color: mediumturquoise;
+  box-shadow:0 0 0 1rem mediumturquoise;
 }
 
 nav {
@@ -139,7 +139,7 @@ section {
 }
 
 .contact-list li a:hover {
-  color: darkgrey;
+  color: white;
   text-decoration: none;
 }
 

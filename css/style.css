@@ -30,6 +30,12 @@ blockquote a {
   color: white;
 }
 
+blockquote:hover {
+  font-size: large;
+  border: 2.5px solid whitesmoke;
+  padding: 1rem;
+}
+
 nav {
   border-bottom: 3.5px solid mediumturquoise;
   position: sticky;

@@ -130,11 +130,16 @@ section {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  transition: transform .5s ease;
 }
 
 .contact-list li {
   display: inline-block;
   padding: 0.8rem 0.8rem;
+}
+
+.contact-list li:hover {
+  transform: scale(1.1);
 }
 
 footer {

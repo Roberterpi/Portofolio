@@ -110,6 +110,11 @@ section {
 
 .row-img {
   padding: 30px;
+  transition: transform .5s ease;
+}
+
+.row-img:hover {
+  transform: scale(1.5);
 }
 
 #contact {

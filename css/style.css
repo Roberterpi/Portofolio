@@ -6,6 +6,7 @@ html, body {
   height: 100%;
   letter-spacing: 0.8px;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -99,7 +100,7 @@ section {
 
 .row-img {
   padding: 50px;
-  transition: transform .5s ease;
+  transition: transform 1s ease-in-out;
 }
 
 .row-img:hover {

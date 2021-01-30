@@ -71,11 +71,6 @@ section {
   min-height: 100vh;
 }
 
-#about {
-  background-color: yellow;
-  color: white;
-}
-
 .section-content {
   display: flex;
   flex-direction: column;
@@ -85,12 +80,6 @@ section {
   margin: 0 auto;
   padding-bottom: 3rem;
   letter-spacing: 2px;
-}
-
-.profile-image {
-  border-radius: 50%;
-  width: 25%;
-  margin: 10%;
 }
 
 #projects {
@@ -109,7 +98,7 @@ section {
 }
 
 .row-img {
-  padding: 30px;
+  padding: 50px;
   transition: transform .5s ease;
 }
 
@@ -143,13 +132,12 @@ section {
 }
 
 footer {
-  background-color: grey;
+  background-color: red;
   text-align: center;
   overflow: hidden;
 }
 
 .footer-text {
   color: white;
-  padding: 1rem;
   font-size: small;
 }

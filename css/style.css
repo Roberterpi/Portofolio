@@ -99,8 +99,7 @@ section {
 }
 
 .row-img {
-  padding: 50px;
-  transition: transform 1s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
 
 .row-img:hover {

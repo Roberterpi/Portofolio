@@ -96,7 +96,7 @@ section {
 }
 
 .row {
-  display: flex;
+  display: inline-flex;
 }
 
 .row-img {

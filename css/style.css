@@ -12,7 +12,7 @@ html, body {
 header {
   display: flex;
   height: 100vh;
-  background-color: goldenrod;
+  background-color: silver;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -33,8 +33,8 @@ blockquote a {
 
 blockquote a:hover {
   font-size: large;
-  background-color: mediumturquoise;
-  box-shadow:0 0 0 1rem mediumturquoise;
+  background-color: grey;
+  box-shadow:0 0 0 1rem grey;
 }
 
 nav {
@@ -80,12 +80,11 @@ section {
   justify-content: center;
   width: 60%;
   margin: 0 auto;
-  padding-bottom: 3rem;
   letter-spacing: 2px;
 }
 
 #projects {
-  background-color: green;
+  background-color: silver;
 }
 
 .projects-p, .contact-p {
@@ -109,7 +108,7 @@ section {
 
 #contact {
   display: flex;
-  background-color:red;
+  background-color:silver;
 }
 
 .contact-list {
@@ -133,7 +132,7 @@ section {
 }
 
 footer {
-  background-color: red;
+  background-color: silver;
   text-align: center;
   overflow: hidden;
 }

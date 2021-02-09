@@ -40,15 +40,15 @@ blockquote a {
 
 blockquote a:hover {
   font-size: large;
-  background-color: gray;
-  box-shadow:0 0 0 1rem gray;
+  background-color: silver;
+  box-shadow:0 0 0 1rem silver;
+  color: black;
 }
 
 nav {
-  border-bottom: 3.5px solid mediumturquoise;
   position: sticky;
   top: 0;
-  background-color: grey;
+  background-color: transparent;
   overflow: hidden;
   z-index: 100;
 }
@@ -72,7 +72,7 @@ nav a {
 }
 
 nav a:hover {
-  color: mediumturquoise;
+  color: black;
   text-decoration: none;
 }
 

@@ -6,7 +6,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, ReactJS">
     <meta name="author" content="Robert Pop">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link href="css/style.css" rel="stylesheet"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -20,7 +20,7 @@
     <div class="container">
       <header id="home">
         <img class="profile-image" src="img/rob.png" alt="Robert's picture">
-        <p>Robert Pop - Front End Developer.</p>
+        <p>Robert Pop - Front End Developer</p>
 
         <blockquote><p style="margin: 0;"><a href="#projects">Have a look</a></p>
         </blockquote>
@@ -39,7 +39,13 @@
           <p class="projects-p">Projects</p>
           
           <div class="row">
-            <a href="https://roberterpi.github.io/firstblog/" target="blank" style="margin-right: 100px;"><img class="row-img" src="img/blog.png" alt="First Blog" style="width: 500px; height: 304px;"></a>
+            <div class="row-text">
+              <a href="https://roberterpi.github.io/firstblog/" target="blank" style="margin-right: 100px;"><img class="row-img" src="img/blog.png" alt="First Blog" style="width: 500px; height: 304px;"></a>
+              <div class="radio">
+                <input type="radio">
+              </div>
+            </div>
+
             <a href="https://roberterpi.github.io/contactform/" target="blank"><img class="row-img" src="img/contactform.png" alt="Contact Form" style="width: 500px; height: 304px;"></a>
           </div>
         </div>

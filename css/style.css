@@ -26,7 +26,7 @@ header {
 }
 .button-action {
   margin-bottom: 0;
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -103,6 +103,18 @@ section {
 }
 .row-img:hover {
   transform: scale(1.1);
+}
+.button-img {
+  margin-top: 2rem;
+}
+.button-img-first {
+  margin-left: 5.2rem;
+  list-style-type: none;
+}
+.button-img-second {
+  text-align: -webkit-center;
+  margin-left: 3rem;
+  list-style-type: none;
 }
 .contact-list {
   padding: 0;

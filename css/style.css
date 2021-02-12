@@ -8,9 +8,11 @@ html,body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background: url(../img/sky.png);
+  font-weight: bold;
+  text-transform: uppercase;
 }
 html:not(:hover), body:not(:hover) {
-  background-color: lightblue;
+  background-color: #157DEC;
 }
 header {
   display: flex;
@@ -20,7 +22,6 @@ header {
   justify-content: center;
   color: white;
   font-size: x-large;
-  font-weight: bold;
 }
 .profile-image {
   border-radius: 50%;
@@ -41,15 +42,14 @@ header {
   display: inline-block;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 1rem;
-  font-size: small;
-  text-transform: uppercase;
+  font-size: medium;
   white-space: nowrap;
   border-radius: 0.3rem;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 .button:hover {
   color: white;
-  box-shadow: 1px 1px 10px 1px red;
+  box-shadow: 1px 1px 10px 4px red;
 }
 .button:active {
   transform: translate(1.2px, 1.2px);
@@ -78,8 +78,9 @@ nav a {
   padding: 0.8rem 0.8rem;
 }
 nav a:hover {
-  color: black;
+  color: white;
   text-decoration: none;
+  box-shadow: 1px 1px 10px 4px red;
 }
 section {
   min-height: 100vh;
@@ -93,8 +94,7 @@ section {
   margin: 0 auto;
 }
 .projects-p, .contact-p {
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 45px;
   color: black;
   margin: 10%;
 }
@@ -125,6 +125,12 @@ section {
   margin-left: 3rem;
   list-style-type: none;
 }
+.tools {
+  color: white;
+  list-style-type: none;
+  margin-top: 3rem;
+  margin-left: 3.5rem;
+}
 .contact-list {
   padding: 0;
 }
@@ -132,7 +138,7 @@ section {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  transition: transform .5s ease;
+  transition: transform 1.5s ease;
 }
 .contact-list li {
   display: inline-block;

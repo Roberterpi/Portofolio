@@ -173,4 +173,7 @@ footer {
   .section-content {
     width: 100%;
   }
+  .projects-p {
+    font-size: xx-large;
+  }
 }

@@ -10,6 +10,7 @@ html,body {
   background: url(../img/sky.png);
   font-weight: bold;
   text-transform: uppercase;
+  background-size: cover;
 }
 html:not(:hover), body:not(:hover) {
   background-color: #157DEC;

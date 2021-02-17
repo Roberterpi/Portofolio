@@ -162,5 +162,7 @@ footer {
   header {
     font-size: medium;
   }
-  
+  .button {
+    font-size: xx-small;
+  }
 }

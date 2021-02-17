@@ -191,4 +191,10 @@ footer {
   .button-img-second {
     margin-right: 5.9rem;
   }
+  .tools {
+    font-size: small;
+    margin-bottom: 8rem;
+    margin-left: 9rem;
+    padding-left: 3rem;
+  }
 }

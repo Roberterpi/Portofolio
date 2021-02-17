@@ -164,6 +164,13 @@ footer {
   header {
     font-size: medium;
   }
+  .profile-image {
+    width: 25%;
+    margin-bottom: 5rem;
+  }
+  .title-header {
+    margin-bottom: 5rem;
+  }
   .button {
     font-size: xx-small;
   }
@@ -180,6 +187,7 @@ footer {
   }
   .projects-p {
     font-size: xx-large;
+    margin: 10%;
   }
   .row {
     display:block;

@@ -54,6 +54,7 @@ header {
 }
 .button:active {
   transform: translate(1.2px, 1.2px);
+  color: red;
 }
 nav {
   background-color: #2a52be;
@@ -84,6 +85,9 @@ nav a:hover {
   color: white;
   text-decoration: none;
   box-shadow: 1px 1px 10px 4px red;
+}
+nav a:active {
+  color: red;
 }
 section {
   min-height: 100vh;
@@ -167,6 +171,9 @@ footer {
     font-size: xx-small;
     background-color: #2a52be;
     box-shadow: 0px 1px 3px 0px red;
+  }
+  nav a:active {
+    color: red;
   }
   .section-content {
     width: 100%;

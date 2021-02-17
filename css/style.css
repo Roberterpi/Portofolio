@@ -182,4 +182,7 @@ footer {
   .row {
     display:block;
   }
+  .row-img {
+    margin-left: 5.1rem;
+  }
 }

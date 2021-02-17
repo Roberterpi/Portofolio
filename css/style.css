@@ -179,4 +179,7 @@ footer {
   .contact-p {
     display: none;
   }
+  .row {
+    display:block;
+  }
 }

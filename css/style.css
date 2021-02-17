@@ -165,4 +165,9 @@ footer {
   .button {
     font-size: xx-small;
   }
+  nav {
+    font-size: xx-small;
+    background-color: #2a52be;
+    box-shadow: 1px 1px 10px 1px red;
+  }
 }

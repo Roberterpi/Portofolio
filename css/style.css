@@ -63,7 +63,7 @@ nav {
   overflow: hidden;
   z-index: 100;
   white-space: nowrap;
-  box-shadow: 1px 1px 10px 1px red;
+  box-shadow: 0px 1px 2px 0px red;
 }
 nav ul {
   list-style-type: none;
@@ -96,10 +96,9 @@ section {
   width: 60%;
   margin: 0 auto;
 }
-.projects-p, .contact-p {
-  font-size: 45px;
+.projects-p {
+  font-size: 35px;
   color: black;
-  margin: 10%;
 }
 #projects, #contact {
   display: flex;
@@ -120,7 +119,7 @@ section {
   margin-top: 2rem;
 }
 .button-img-first {
-  margin-left: 5.2rem;
+  margin-left: 4.5rem;
   list-style-type: none;
 }
 .button-img-second {
@@ -136,16 +135,15 @@ section {
 }
 .contact-list {
   padding: 0;
+  margin: 0;
 }
 .contact-list ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   transition: transform 1.5s ease;
 }
 .contact-list li {
   display: inline-block;
-  padding: 0.8rem 0.8rem;
+  padding: 1.5rem;
 }
 .contact-list li:hover {
   transform: scale(1.1);
@@ -168,16 +166,13 @@ footer {
   nav {
     font-size: xx-small;
     background-color: #2a52be;
-    box-shadow: 1px 1px 10px 1px red;
+    box-shadow: 0px 1px 3px 0px red;
   }
   .section-content {
     width: 100%;
   }
   .projects-p {
     font-size: xx-large;
-  }
-  .contact-p {
-    display: none;
   }
   .row {
     display:block;

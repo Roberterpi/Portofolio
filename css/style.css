@@ -110,7 +110,7 @@ section {
 .row {
   display: inline-flex;
   overflow: hidden;
-  margin-top: 3rem;
+  margin-top: 7rem;
 }
 .row-img {
   transition: all 3s;

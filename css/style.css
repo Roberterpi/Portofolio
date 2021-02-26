@@ -165,6 +165,9 @@ footer {
   font-size: x-small;
 }
 @media screen and (max-width: 800px) {
+  html, body {
+    overflow-x: hidden;
+  }
   header {
     font-size: medium;
   }

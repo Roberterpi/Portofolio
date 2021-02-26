@@ -117,7 +117,7 @@ section {
 }
 .row-img {
   transition: all 3s;
-  border-radius: 0.2rem;
+  border-radius: 0.2rem; 
 }
 .row-img:hover {
   transform: scale(1.1);
@@ -164,7 +164,7 @@ footer {
   color: white;
   font-size: x-small;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   header {
     font-size: medium;
   }
@@ -198,6 +198,7 @@ footer {
     display:block;
     margin-right: 4.9rem;
     margin-top: -6rem;
+    width: 110%;
   }
   .row-img {
     margin-left: 5.1rem;

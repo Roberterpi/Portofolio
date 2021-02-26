@@ -165,7 +165,7 @@ footer {
   font-size: x-small;
 }
 @media screen and (max-width: 900px) {
-  html, body {
+  .container {
     overflow: hidden;
   }
   header {
@@ -201,7 +201,6 @@ footer {
     display:block;
     margin-right: 4.9rem;
     margin-top: -6rem;
-    width: 110%;
   }
   .row-img {
     margin-left: 5.1rem;
